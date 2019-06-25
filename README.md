@@ -1,1 +1,1 @@
-Blah blah
+Business Analytics Using SQL Project
