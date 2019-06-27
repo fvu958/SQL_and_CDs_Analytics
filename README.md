@@ -8,7 +8,8 @@ A project using SQL to answer business questions surrounding the operations of a
 
 
 # Test
-`support_rep_sales = '''
+```python
+support_rep_sales = '''
     WITH support_rep_sales AS
     (
         SELECT
@@ -27,4 +28,5 @@ SELECT
     FROM employee e
     INNER JOIN support_rep_sales srs ON e.employee_id = srs.support_rep_id
     GROUP BY employee_name;
-'''`
+'''
+```
